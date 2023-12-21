@@ -20,8 +20,8 @@ export class FluffyGrass {
   private gui: dat.GUI;
   private sceneGUI: dat.GUI;
   private sceneProps = {
-    fogColor: '#eeeeee',
-    terrainColor: '#57c862',
+    fogColor: '#f3e9ff',
+    terrainColor: '#79e7ff',
     fogDensity: 0.01,
   };
   private textures: { [key: string]: THREE.Texture; } = {};
